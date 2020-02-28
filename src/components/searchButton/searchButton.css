@@ -1,0 +1,16 @@
+.searchUl{
+    width: 35%;
+    list-style-type: none;
+    position: absolute;
+  
+}
+.li__search {
+    height: 50px;
+    padding: 13px;
+    border-bottom: 1px solid #E5E7E9;
+    background: white;
+}
+.li__search:hover { 
+    background-color:#072455;
+    color: white
+ }

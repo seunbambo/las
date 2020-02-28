@@ -1,0 +1,145 @@
+.form {
+ width: 70%;
+ margin: auto;
+}
+
+.form__column {
+flex: 1;
+flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    
+}
+
+
+.label__text {
+    text-transform: capitalize;
+}
+
+.form__button {
+  background-color: #0b3056;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.form__column_button {
+    width: 94%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+
+}
+
+.form__icon {
+    padding: 10px;
+    background: #0b3056;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    margin-top: 8px;
+    min-height: 22px;
+}
+
+
+
+.spacer {
+    flex: 1;
+}
+.form__label {
+    font-size: 12px;
+    line-height: 0px;
+}
+.form h5 {
+    text-align:center;
+    font-size: 17px;
+}
+inputs {
+  padding: 12px 20px;
+  margin: 8px 0;
+  outline: none;
+  border: 1px solid #DDDDDD;
+  width: 80%;  
+}
+
+.form__inputs--select {
+    padding: 12px 20px;
+  margin: 8px 0;
+  outline: none;
+  border: 1px solid #DDDDDD;
+  width: 95%;  
+}
+
+.form__inputs--file {
+    padding: 9px 20px;
+    margin: 8px 0;
+    outline: none;
+    border: 1px solid #DDDDDD;
+    width: 80%;
+    
+  }
+
+.form__inputs--large {
+    padding: 12px 20px;
+    margin: 8px 0;
+    outline: none;
+    border: 1px solid #DDDDDD;
+    width: 89%;
+}
+
+.form__container_large {
+    float: left;
+    margin-left:3%;
+    width: 64%;
+}
+.form__container {
+    float: left;
+    margin-left:3%;
+    width: 30%;
+}
+
+.form__inputs:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+@media (max-width: 769px){
+    .form__container {
+        float: left;
+        margin-left:3%;
+        width: 100%;
+    }
+    .form__container_large {
+        float: left;
+        margin-left:3%;
+        width: 100%;
+    }
+    .form__inputs--large {
+        padding: 12px 20px;
+        margin: 8px 0;
+        outline: none;
+        border: 1px solid #DDDDDD;
+        width: 80%;
+    }
+        
+    .form__inputs--select {
+        padding: 12px 20px;
+        margin: 8px 0;
+        outline: none;
+        border: 1px solid #DDDDDD;
+        width: 80%;  
+    }
+
+    
+}

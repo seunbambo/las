@@ -1,0 +1,42 @@
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    float: left;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: #072455;
+    color: white;
+    min-width: 50px;
+    height: 45px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    font-size: 8px;
+    padding: 13px;
+    outline: none;
+    border: 1px solid #a7a8b1;
+    border-right: none;
+    height: 45px;
+  }
+
+  
+  .input-field:focus {
+    border: 2px solid #072455;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #072455;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  

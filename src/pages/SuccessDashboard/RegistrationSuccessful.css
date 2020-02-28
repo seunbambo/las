@@ -1,0 +1,17 @@
+.reg__description {
+    text-align: center;
+    
+}
+
+.reg__header {
+    margin-top: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.imgTop {
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 40%;
+}

@@ -1,0 +1,177 @@
+#wrapper {
+  display: flex; /* Magic begins! */
+  /* height: 800px; */
+  width: 60%;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.right__bottom {
+  width: 230px;
+  flex: 1;
+}
+#left {
+  width: 400px; /* Desired width. Will be less is the window is narrow */
+  flex: 1;
+}
+
+#left > p {
+  margin-left: 10;
+  width: 50%;
+  line-height: 2;
+}
+
+.left {
+  width: 400px; /* Desired width. Will be less is the window is narrow */
+  flex: 1;
+}
+
+#wrapper > div > div {
+  /* Unrelated styles */
+  float: left;
+  margin-left: 5px;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  /* margin-top: 50px; */
+}
+th {
+  background-color: #0b3056;
+  color: white;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.down__table {
+  width: 10px;
+  text-align: right;
+}
+.center-button {
+  float: right;
+  justify-content: center;
+  width: 100%;
+}
+.BUTTON_FYD {
+  background: #0b3056;
+  background-image: -webkit-linear-gradient(top, #0b3056, #0b3056);
+  background-image: -moz-linear-gradient(top, #0b3056, #0b3056);
+  background-image: -ms-linear-gradient(top, #0b3056, #0b3056);
+  background-image: -o-linear-gradient(top, #0b3056, #0b3056);
+  background-image: linear-gradient(to bottom, #0b3056, #0b3056);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  height: 30px;
+  line-height: 50px;
+  color: #ffffff;
+  width: 200px;
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: auto;
+}
+
+.BUTTON_FYD:hover {
+  border: solid #337fed 2px;
+  background: #0b3056;
+  background-image: -webkit-linear-gradient(top, #0b3056, #0b3056);
+  background-image: -moz-linear-gradient(top, #0b3056, #0b3056);
+  background-image: -ms-linear-gradient(top, #0b3056, #0b3056);
+  background-image: -o-linear-gradient(top, #0b3056, #0b3056);
+  background-image: linear-gradient(to bottom, #0b3056, #0b3056);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.BUTTON_FYD_TRANSPARENT {
+  background: transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  height: 30px;
+  line-height: 50px;
+  color: #0b3056;
+  width: 200px;
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  border: solid #0b3056 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: auto;
+}
+
+.BUTTON_FYD_TRANSPARENT:hover {
+  border: solid #0b3056 3px;
+  background: transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+@media only screen and (max-width: 1170px) {
+  #wrapper {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #left > p {
+    margin-left: 10;
+    width: 80%;
+    line-height: 1.7;
+  }
+
+  .right {
+    margin-top: 0;
+  }
+
+  #right-text {
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (max-width: 875px) {
+  #wrapper {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  #wrapper {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 718px) {
+  #wrapper {
+    width: 98%;
+  }
+}

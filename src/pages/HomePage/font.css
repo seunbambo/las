@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'AdobeClean-Bold';
+    src: local('AdobeClean-Bold'), url(../../fonts/AdobeClean-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'AdobeClean-Light';
+    src: local('AdobeClean-Light'), url(../../fonts/AdobeClean-Light.woff) format('woff');
+}
+/* AdobeClean-Regular.woff */
+
+@font-face {
+    font-family: 'AdobeClean-Regular';
+    src: local('AdobeClean-Regular'), url(../../fonts/AdobeClean-Regular.woff) format('woff');
+}

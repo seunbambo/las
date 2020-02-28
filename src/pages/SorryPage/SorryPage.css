@@ -1,0 +1,39 @@
+.reg__description {
+    text-align: center;
+    
+}
+
+.reg__header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imgTop {
+    display: block;
+    margin: auto;
+}
+.form__button {
+    background-color: 
+#0b3056;
+border: none;
+color:
+    white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 70%!important;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 769px){
+    .imgTop {
+        display: block;
+        margin: auto;
+        width: 50%;
+        height: 50%;
+    }   
+    
+}

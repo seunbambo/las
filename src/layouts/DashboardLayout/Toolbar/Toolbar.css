@@ -1,0 +1,161 @@
+.toolbar {
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    left: 0;
+    width: 100%;
+    background: #072455;
+    height: 76px;
+    
+}
+.dropdown__arrow {
+    color: white;
+    cursor: pointer;
+}
+.dropdown_logout {
+    width:100px;
+    height:60px;
+    background: #072455; 
+    position:absolute;
+    right:20px;
+    cursor: pointer;
+}
+
+
+.toolbar__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+.left__image {
+    width: 60px;
+    height: 65px;
+    margin-top: 11px;
+}
+
+.toolbar__lagos {
+    margin-top: 1px;
+
+}
+.toolbar__logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Montserrat';
+    font-weight: 'bold';
+    margin-left: 4rem;
+}
+/* lets add a spacing between the drawerToggleButton and the logo itself */
+.toolbar__logo {
+    margin-left: 1rem;
+}
+
+.user__image {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin-top: 11px;
+}
+.user__image--container {
+    float: left;
+}
+.user__detail_list {
+    list-style: none;
+    float: right;
+    color: white;
+}
+.user__detail_list_small {
+    font-size: 10px;
+}
+
+.toolbar_navigation-items ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;    
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+/* this simply means it should take all available space */
+.spacer {
+    flex: 1;
+}
+
+.toolbar_navigation-items li {
+    padding: 0 1.4em;
+    font-size: 12px;
+}
+
+
+.toolbar_navigation-items a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.toolbar_navigation-items :hover,
+.toolbar_navigation-items :active{
+    color: #fa923f;
+}
+/* We dont want the items to show on mobile screens */
+@media (max-width: 768px){
+    .toolbar_navigation-items {
+        display: none;
+    }
+    .logo__item--download, .logo__item--signup, .logo__item--login, .home__item {
+        display:none
+    }
+    .toolbar__logo a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+    .user__image {
+        display: none;
+    }
+    
+    .user__detail_list {
+      display: none;
+    }
+    .divider, .divider ul {
+        display:none;
+    }
+    .logo__item--header, .logo__item {
+        display: none;
+    }
+    .toolbar__toggle--button {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .toolbar__logo__text{
+        padding-left: 20px;
+    }
+    .toolbar__logo__text{
+        font-size: 22px;
+        color:white;
+    }
+    .homepage__navs_container li {
+        float: left;
+        margin-right: 8%;
+    }
+    
+}
+
+@media (min-width: 769px){
+    .toolbar__toggle--button {
+        display:none
+    }
+    
+    /* lets remove the margin too */
+    .toolbar__logo {
+        margin-left: 0;
+    }
+  
+
+
+    
+
+}

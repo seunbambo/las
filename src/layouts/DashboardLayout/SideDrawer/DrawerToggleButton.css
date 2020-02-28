@@ -1,0 +1,29 @@
+/* the button itself would be transparent, we want to position this div on top of each other, row is the default */
+.toggle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* We notice that the button has some default padding, so we remove it */
+/* box-sizing border-box is to make sure the lines really stay within the button */
+/* Since all the items are stacked onTop each other, 
+We can now say justify-content: space-between, space-between divides the space to be between these items */
+
+/* justify-content: space-around, shares the remaining space both between the items and around them */
+
+.toggle-button:focus {
+    outline: none;
+}
+/* 100% wont work for divs inside a button */
+.toggle-button__line {
+    width: 30px;
+    height: 2px;
+    background: white;
+}

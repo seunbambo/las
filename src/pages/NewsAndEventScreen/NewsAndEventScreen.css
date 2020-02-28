@@ -1,0 +1,17 @@
+.eachNews {
+  width: 32%;
+  height: 200px;
+  float: left;
+  border: 2px solid red;
+}
+.news__container {
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.makeStyles-paper-2 {
+  color: rgba(0, 0, 0, 0.54);
+  padding: 16px;
+  text-align: center;
+  min-width: 300px !important;
+}

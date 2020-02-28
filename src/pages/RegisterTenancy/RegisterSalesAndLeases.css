@@ -1,0 +1,53 @@
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+select {
+    padding: 12px 30px;
+    border-radius: 4px;
+    color:#072455;
+    border: 1px solid #a7a8b1;
+    margin-top: 30px;
+}
+.input-container__dash {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    float: left;
+  }
+  
+  .icon__dash {
+    padding: 10px;
+    background: #072455;
+    color: white;
+    min-width: 50px;
+    height: 28px;
+    text-align: center;
+  }
+  
+  .input-field__dash {
+    width: 100%;
+    font-size: 8px;
+    padding: 13px;
+    outline: none;
+    border: 1px solid #a7a8b1;
+    border-right: none;
+    height: 20px;
+  }
+
+  
+  .input-field__dash:focus {
+    border: 1px solid #a7a8b1;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #072455;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  

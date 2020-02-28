@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+@font-face {
+  font-family: "AdobeClean-Bold";
+  src: local("AdobeClean-Bold"), url(/fonts/AdobeClean-Bold.woff) format("woff");
+}
+* {
+  font-family: "Montserrat";
+}
+body {
+  margin: 0;
+  background: #ffffff;
+  overflow-x: hidden;
+  font-family: "Montserrat", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  background-color: white;
+}

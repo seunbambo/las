@@ -1,0 +1,18 @@
+.rules {
+    margin-top:20px;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (max-width: 769px){
+    .rules {
+        margin-top: 60px;
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

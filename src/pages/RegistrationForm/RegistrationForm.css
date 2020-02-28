@@ -1,0 +1,11 @@
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+select {
+    padding: 12px 30px;
+    border-radius: 4px;
+    color: #a7a8b1;
+    border: 1px solid  #a7a8b1;
+    margin-top: 30px;
+}

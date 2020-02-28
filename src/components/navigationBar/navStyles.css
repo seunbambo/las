@@ -1,0 +1,38 @@
+.avatarImage {
+    border-radius: 4px;
+}
+.makeStyles-content-9{
+    color:  #074d7a;
+    margin-top: 100px;
+}
+
+@font-face {
+    font-family: 'AdobeClean-Bold';
+    src: local('AdobeClean-Bold'), url(./AdobeClean-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'AdobeClean-Light';
+    src: local('AdobeClean-Light'), url(./AdobeClean-Light.woff) format('woff');
+}
+/* AdobeClean-Regular.woff */
+
+@font-face {
+    font-family: 'AdobeClean-Regular';
+    src: local('AdobeClean-Regular'), url(./AdobeClean-Regular.woff) format('woff');
+}
+
+
+.makeStyles-content-9 {
+    padding: 0px!important;
+    flex-grow: 1;
+    transition: margin 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+    
+overflow-x: hidden;
+}
+.makeStyles-content-11 {
+    padding: 0px!important;
+    flex-grow: 1;
+    transition: margin 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+    margin-left: -240px;
+}

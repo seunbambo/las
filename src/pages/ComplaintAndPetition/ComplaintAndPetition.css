@@ -1,0 +1,34 @@
+
+.DayPicker-Month {
+    width: 450px
+}
+@media (max-width: 769px){
+    .DayPicker-Month {
+        width: 80%;
+        overflow: auto;
+    }
+}
+/* .two-way__registration {
+    text-align: center;
+    margin: 20px;
+    background: rgb(4, 243, 160, 0.1);
+    padding: 20px;
+}
+.dash__span, .dash__span_hidden{
+letter-spacing: 0.548em;
+color: #0aa46e;
+font-size: 97%;
+}
+.dash__span_hidden {
+    visibility: hidden;
+    padding-right: 20px;
+}
+
+@media (max-width: 769px){
+    .two-way__registration {
+        display: none;
+    }
+    .form__c {
+        margin-top: 20px;
+    }
+} */
