@@ -47,7 +47,7 @@
     "redux-localstore": "^0.4.0",
     "typeface-roboto": "0.0.75",
     "use-state-with-callback": "^1.0.18",
-    "validator": "^12.1.0",
+    "validator": "^13.7.0",
     "webpack": "^4.41.0",
     "zl-fetch": "^3.0.2"
   },
